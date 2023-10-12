@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.SKULL#5"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:EnderPuree"
+    },
+    "name": "void_cola_recipe",
+    "namespace": "mod"
+  }
+}

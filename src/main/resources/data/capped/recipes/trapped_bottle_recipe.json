@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glass_bottle"
+    },
+    "3": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "capped:trapped_bottle",
+    "count": 1
+  }
+}

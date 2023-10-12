@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nikohat",
+        "1": "nikohead",
+        "2": "nikoscarf",
+        "3": "nikotorsowithsun",
+        "4": "lightbulb"
+      },
+      "name": "default"
+    }
+  }
+}

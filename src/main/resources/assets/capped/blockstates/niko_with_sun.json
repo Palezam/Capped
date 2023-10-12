@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "capped:block/niko_with_sun"
+    },
+    "facing=east": {
+      "model": "capped:block/niko_with_sun",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "capped:block/niko_with_sun",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "capped:block/niko_with_sun",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "type": "capped:cola_crate_cache_niko",
+  "config": {}
+}

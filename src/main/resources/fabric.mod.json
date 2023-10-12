@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "capped",
+  "version": "1.0.0",
+  "name": "Capped",
+  "authors": [
+    "bruin, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.capped.CappedMod"
+    ],
+    "client": [
+      "net.mcreator.capped.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "capped.mixins.json"
+  ]
+}

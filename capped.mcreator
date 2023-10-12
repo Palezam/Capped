@@ -1,0 +1,614 @@
+{
+  "mod_elements": [
+    {
+      "name": "Capped",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capped",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cap",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/item/CapItem.java",
+          "src/main/resources/assets/capped/models/item/cap.json"
+        ]
+      }
+    },
+    {
+      "name": "Cola",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/models/item/cola.json",
+          "src/main/java/net/mcreator/capped/item/ColaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NitroCap",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitro_cap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/models/item/nitro_cap.json",
+          "src/main/java/net/mcreator/capped/item/NitroCapItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NitroColaDrank",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitro_cola_drank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/procedures/NitroColaDrankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NitroCola",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitro_cola",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/models/item/nitro_cola.json",
+          "src/main/java/net/mcreator/capped/item/NitroColaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YouMonster",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_monster",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/advancements/you_monster.json"
+        ]
+      }
+    },
+    {
+      "name": "TrappedBottle",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trapped_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/models/item/trapped_bottle.json",
+          "src/main/java/net/mcreator/capped/item/TrappedBottleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AllayInABottle",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_in_a_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/item/AllayInABottleItem.java",
+          "src/main/resources/assets/capped/models/item/allay_in_a_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "AllayInABottleRightclicked",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_in_a_bottle_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/procedures/AllayInABottleRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrappedBottleRightClickAllay",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trapped_bottle_right_click_allay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/procedures/TrappedBottleRightClickAllayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NitroColaRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitro_cola_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/recipes/nitro_cola_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Captrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VoidColaBottlecap",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cola_bottlecap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/item/VoidColaBottlecapItem.java",
+          "src/main/resources/assets/capped/models/item/void_cola_bottlecap.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidColaDrank",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cola_drank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/procedures/VoidColaDrankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidCola",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cola",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/item/VoidColaItem.java",
+          "src/main/resources/assets/capped/models/item/void_cola.json"
+        ]
+      }
+    },
+    {
+      "name": "Crate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/models/block/crate.json",
+          "src/main/resources/assets/capped/models/item/crate.json",
+          "src/main/java/net/mcreator/capped/block/CrateBlock.java",
+          "src/main/resources/assets/capped/blockstates/crate.json"
+        ]
+      }
+    },
+    {
+      "name": "Cat",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/models/item/cat.json",
+          "src/main/java/net/mcreator/capped/item/CatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Niko",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/models/item/niko.json",
+          "src/main/java/net/mcreator/capped/item/NikoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NikoWithSun",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niko_with_sun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/capped/blockstates/niko_with_sun.json",
+          "src/main/resources/assets/capped/models/item/niko_with_sun.json",
+          "src/main/java/net/mcreator/capped/block/NikoWithSunBlock.java",
+          "src/main/resources/assets/capped/models/block/niko_with_sun.json"
+        ]
+      }
+    },
+    {
+      "name": "CatRightclicked",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/procedures/CatRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NikoWithSunRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niko_with_sun_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/recipes/niko_with_sun_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Colarecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/recipes/colarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidColaRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cola_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/recipes/void_cola_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidColaRightclicked",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cola_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/procedures/VoidColaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crateblockdrops",
+      "type": "loottable",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crateblockdrops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/loot_tables/blocks/crate.json"
+        ]
+      }
+    },
+    {
+      "name": "CrateRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/recipes/crate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ColaCrateCache",
+      "type": "structure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola_crate_cache",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/worldgen/configured_feature/cola_crate_cache.json",
+          "src/main/resources/data/capped/worldgen/placed_feature/cola_crate_cache.json",
+          "src/main/java/net/mcreator/capped/world/features/ColaCrateCacheFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "ColaCrateCacheNiko",
+      "type": "structure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola_crate_cache_niko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/worldgen/configured_feature/cola_crate_cache_niko.json",
+          "src/main/resources/data/capped/worldgen/placed_feature/cola_crate_cache_niko.json",
+          "src/main/java/net/mcreator/capped/world/features/ColaCrateCacheNikoFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderPuree",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_puree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/capped/item/EnderPureeItem.java",
+          "src/main/resources/assets/capped/models/item/ender_puree.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidColaRecipeCraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cola_recipe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/recipes/void_cola_recipe_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "TrappedBottleRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trapped_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/capped/recipes/trapped_bottle_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "niko_place",
+      "files": [
+        "262310__steffcaffrey__cat-purrtwit5"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "niko_break",
+      "files": [
+        "maowcut"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.capped.crate": "Cola Crate",
+      "item.capped.ender_puree": "Ender Puree",
+      "subtitles.niko_break": "",
+      "advancements.you_monster.descr": "So thats how its made.",
+      "item_group.capped.capped": "Capped",
+      "item.capped.void_cola_bottlecap": "Void Bottlecap",
+      "block.capped.niko_with_sun": "Niko with Sun",
+      "item.capped.allay_in_a_bottle": "Allay In A Bottle",
+      "item.capped.nitro_cap": "Nitro Bottlecap",
+      "item.capped.void_cola": "Void Cola",
+      "subtitles.niko_place": "",
+      "item.capped.cat": "A Cat?",
+      "item.capped.trapped_bottle": "Trapped Bottle",
+      "item.capped.niko": "Niko",
+      "item.capped.nitro_cola": "Nitro Cola",
+      "item.capped.cap": "Cola Bottlecap",
+      "item.capped.cola": "Cola",
+      "advancements.you_monster.title": "You Monster"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "capped",
+    "modName": "Capped",
+    "version": "1.0.0",
+    "author": "bruin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.capped",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

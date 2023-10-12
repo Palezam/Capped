@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "capped:block/crate",
+    "up": "capped:block/crate",
+    "north": "capped:block/crate",
+    "east": "capped:block/crate",
+    "south": "capped:block/crate",
+    "west": "capped:block/crate",
+    "particle": "capped:block/crate"
+  },
+  "render_type": "solid"
+}

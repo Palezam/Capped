@@ -1,0 +1,13 @@
+{
+  "parent": "capped:custom/nikowithsun",
+  "textures": {
+    "all": "capped:block/nikohat",
+    "particle": "capped:block/nikobreaktexture",
+    "0": "capped:block/nikohat",
+    "1": "capped:block/nikohead",
+    "2": "capped:block/nikoscarf",
+    "3": "capped:block/nikotorsowithsun",
+    "4": "capped:block/lightbulb"
+  },
+  "render_type": "solid"
+}

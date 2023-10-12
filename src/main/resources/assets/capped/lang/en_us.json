@@ -1,0 +1,20 @@
+{
+  "block.capped.crate": "Cola Crate",
+  "item.capped.ender_puree": "Ender Puree",
+  "subtitles.niko_break": "",
+  "advancements.you_monster.descr": "So thats how its made.",
+  "item_group.capped.capped": "Capped",
+  "item.capped.void_cola_bottlecap": "Void Bottlecap",
+  "block.capped.niko_with_sun": "Niko with Sun",
+  "item.capped.allay_in_a_bottle": "Allay In A Bottle",
+  "item.capped.nitro_cap": "Nitro Bottlecap",
+  "item.capped.void_cola": "Void Cola",
+  "subtitles.niko_place": "",
+  "item.capped.cat": "A Cat?",
+  "item.capped.trapped_bottle": "Trapped Bottle",
+  "item.capped.niko": "Niko",
+  "item.capped.nitro_cola": "Nitro Cola",
+  "item.capped.cap": "Cola Bottlecap",
+  "item.capped.cola": "Cola",
+  "advancements.you_monster.title": "You Monster"
+}

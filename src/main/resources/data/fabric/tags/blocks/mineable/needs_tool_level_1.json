@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "capped:crate",
+    "capped:niko_with_sun"
+  ]
+}
